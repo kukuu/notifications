@@ -25,13 +25,20 @@ Logs every action performed by a user for audit purposes.
 
 1. Database Schema:
 2. User Authentication (Login System)
+
    a. Login Form:
+
    b. Login Logic (login.php):
-3. Dashboard and Access Control
+4. Dashboard and Access Control
+
    a. Dashboard (dashboard.php):
-4. Sending Notifications (send_notification.php)
-    a. Notification Form:
-    b. Notification Logic (send_notification.php):
-5. Viewing Logs (view_logs.php)
-7. Registeration and API Key Generation
+   
+6. Sending Notifications (send_notification.php)
+
+   a. Notification Form:
+
+   b. Notification Logic (send_notification.php):
+   
+8. Viewing Logs (view_logs.php)
+9. Registeration and API Key Generation
  
