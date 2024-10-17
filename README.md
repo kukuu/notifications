@@ -6,7 +6,7 @@ The application delivers Text and Video from a Cloud based SaaS platform. The sy
 
 ## Components of the Solution:
 
-1. Multi-Tenant Setup: Each client (tenant) will have a Tenant ID and API Key to access the notification platform: https://github.com/kukuu/notifications/blob/main/database-schema.md
+1. Multi-Tenant Setup: Each client (tenant) will have a Tenant ID and API Key to access the notification platform: 
 
 2. User Roles (Access Control):
 
@@ -21,7 +21,7 @@ Logs every action performed by a user for audit purposes.
 
 ## Implementation steps: 
 
-1. Database Schema: Create tables for Users, Roles, Permissions, and the many-to-many relationships between them (User-Roles and Role-Permissions).
+1. Database Schema: Create tables for Users, Roles, Permissions, and the many-to-many relationships between them (User-Roles and Role-Permissions): https://github.com/kukuu/notifications/blob/main/database-schema.md
 2. User Authentication (Login System)
 
    a. Login Form:
