@@ -4,6 +4,8 @@ This is a PHP implementation of a rich interactive customer engagement Cloud bas
 
 The application delivers Text and Video from a Cloud based SaaS platform. The system allows text messages and videos to be delivered to Internet connectivity devices and requires a log-in access control for an Administrator and a Tennant. The application is  a multi-tenancy system and requires Tenant ID and API key to access and create a Notification.
 
+Each notification and log is tied to the tenant_id so that data is isolated by tenant. Only users from the same tenant can view or send notifications for their respective tenants.
+
 ## Components of the Solution:
 
 1. Multi-Tenant Setup: Each client (tenant) will have a Tenant ID and API Key to access the notification platform: 
