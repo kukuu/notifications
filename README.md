@@ -1,4 +1,4 @@
-# Rich Media &  Notifications
+# Rich Media Notifications
 
 Rich Interactive Customer Engagement for Gamification and Ecommerce.
 
