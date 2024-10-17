@@ -8,9 +8,7 @@ To implement a simple notification system that allows text messages and videos t
 
 ## Components of the Solution:
 
-1. Multi-Tenant Setup:
-
-Each client (tenant) will have a Tenant ID and API Key to access the notification platform.
+1. Multi-Tenant Setup: Each client (tenant) will have a Tenant ID and API Key to access the notification platform.
 
 2. User Roles (Access Control):
 
