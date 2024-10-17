@@ -4,10 +4,9 @@ Rich Interactive Customer Engagement for Gamification and Ecommerce.
 
 This is a PHP implementation of Rich Interactive Notification to deliver Text and Video from a Cloud SaaS platform.
 
-## Implementation steps: 
 To implement a simple notification system that allows text messages and videos to be delivered using PHP, with log-in access control for an Administrator and a user, and with SaaS (Software as a Service) multi-tenancy features (Tenant ID and API key), you need to address the following key components:
 
-### Components of the Solution:
+## Components of the Solution:
 
 1. Multi-Tenant Setup:
 
@@ -27,3 +26,18 @@ Logs every action performed by a user for audit purposes.
 5. API Authentication:
 
 Authentication through Tenant ID and API Key to ensure secure access for each client.
+
+## Implementation steps: 
+
+1. Database Schema:
+2. User Authentication (Login System)
+   a. Login Form:
+   b. Login Logic (login.php):
+3. Dashboard and Access Control
+   a. Dashboard (dashboard.php):
+4. Sending Notifications (send_notification.php)
+    a. Notification Form:
+    b. Notification Logic (send_notification.php):
+5. Viewing Logs (view_logs.php)
+7. Registeration and API Key Generation
+ 
