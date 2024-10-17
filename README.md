@@ -40,7 +40,46 @@ Logs every action performed by a user for audit purposes.
    b. Notification Logic (send_notification.php): https://github.com/kukuu/notifications/blob/main/notification-logic.md
    
 8. Viewing Logs (view_logs.php): The admin can view logs of actions performed by users: https://github.com/kukuu/notifications/blob/main/view-logs.md
-9. Registeration and API Key Generation : API keys for tenants can be generated using bin2hex() or a similar function in PHP when a new tenant registers.
+9. Registeration and API Key Generation : API keys for tenants can be generated using bin2hex() or a similar function in PHP when a new tenant registers:
+
+To extend an API generation key functionality in a registration form accessible via a link from the login page that requires email verification and confirmation of admin status, you can follow this approach:
+
+Steps for Implementation:
+
+1. Login Page Link:
+
+a. Provide a link on the login page for "Generate API Key".
+
+b. The link redirects to a separate API Key Registration form.
+
+
+2. Registration Form:
+
+The form should have fields for:
+
+a. Email (required to verify the user's identity)
+
+b. Confirmation of Admin Role (this can be a hidden field checked against the database or a checkbox for simplicity).
+
+c. Generate Key button, which calls the function to generate an API key.
+
+
+3. API Key Generation:
+
+On submitting the form, check:
+
+a. The email exists and is associated with a valid admin account.
+
+b. If the user has an Admin role, proceed with generating an API key.
+
+c. Generate a unique API key for the user.
+
+d. Save the key in the database linked to the tenant ID.
+
+
+4. Send API Key:
+
+a. Upon successful generation, the key should be displayed or sent via email.
 
 ## Conclusion:
 
