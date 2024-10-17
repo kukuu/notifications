@@ -41,4 +41,8 @@ Logs every action performed by a user for audit purposes.
    
 8. Viewing Logs (view_logs.php): The admin can view logs of actions performed by users: https://github.com/kukuu/notifications/blob/main/view-logs.md
 9. Registeration and API Key Generation : API keys for tenants can be generated using bin2hex() or a similar function in PHP when a new tenant registers.
+
+## Conclusion:
+
+This implementation provides a basic structure for a notification system where users and administrators from different tenants can log in, send notifications (text messages and videos), and view their own logs. Each tenant has its own API key, and access control is based on user roles (admin and user). You can extend this by integrating with SMS APIs or video delivery platforms if required.
  
