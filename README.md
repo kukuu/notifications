@@ -29,7 +29,7 @@ Logs every action performed by a user for audit purposes.
    b. Login Logic (login.php): https://github.com/kukuu/notifications/blob/main/login.md
 4. Dashboard and Access Control : This is a sample code for an access control system that restricts access to different pages based on user roles.
 
-   a. Dashboard (dashboard.php):
+   a. Dashboard (dashboard.php): https://github.com/kukuu/notifications/blob/main/dashboard.md
    
 6. Sending Notifications (send_notification.php)
 
