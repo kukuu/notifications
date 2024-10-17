@@ -37,6 +37,6 @@ Logs every action performed by a user for audit purposes.
 
    b. Notification Logic (send_notification.php): https://github.com/kukuu/notifications/blob/main/notification-logic.md
    
-8. Viewing Logs (view_logs.php): The admin can view logs of actions performed by users.
+8. Viewing Logs (view_logs.php): The admin can view logs of actions performed by users: https://github.com/kukuu/notifications/blob/main/view-logs.md
 9. Registeration and API Key Generation
  
