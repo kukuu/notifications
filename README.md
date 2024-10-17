@@ -21,7 +21,7 @@ Logs every action performed by a user for audit purposes.
 
 ## Implementation steps: 
 
-1. Database Schema:
+1. Database Schema: Create tables for Users, Roles, Permissions, and the many-to-many relationships between them (User-Roles and Role-Permissions).
 2. User Authentication (Login System)
 
    a. Login Form:
