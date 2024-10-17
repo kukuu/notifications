@@ -26,7 +26,7 @@ Logs every action performed by a user for audit purposes.
 
    a. Login Form: https://github.com/kukuu/notifications/blob/main/login-form.md
 
-   b. Login Logic (login.php):
+   b. Login Logic (login.php): https://github.com/kukuu/notifications/blob/main/login.md
 4. Dashboard and Access Control
 
    a. Dashboard (dashboard.php):
