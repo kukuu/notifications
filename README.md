@@ -22,7 +22,7 @@ Logs every action performed by a user for audit purposes.
 ## Implementation steps: 
 
 1. Database Schema: Create tables for Users, Roles, Permissions, and the many-to-many relationships between them (User-Roles and Role-Permissions): https://github.com/kukuu/notifications/blob/main/database-schema.md
-2. User Authentication (Login System)
+2. User Authentication (Login System): First, we need an authentication mechanism where users and admins log in using a username, password, Tenant ID, and API key.
 
    a. Login Form:
 
