@@ -6,7 +6,7 @@ The application delivers Text and Video from a Cloud based SaaS platform. The sy
 
 ## Components of the Solution:
 
-1. Multi-Tenant Setup: Each client (tenant) will have a Tenant ID and API Key to access the notification platform.
+1. Multi-Tenant Setup: Each client (tenant) will have a Tenant ID and API Key to access the notification platform: https://github.com/kukuu/notifications/blob/main/database-schema.md
 
 2. User Roles (Access Control):
 
