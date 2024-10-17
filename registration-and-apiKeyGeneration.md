@@ -26,7 +26,7 @@ if(isset($_POST['submit'])){
 
 i. Email Verification: Ensure the email exists and corresponds to an admin.
 
-ii. Admin Role Confirmation: Use role-based access control (RBAC) to confirm the user has admin privileges.
+ii. Admin Role Confirmation: Use role-based access control (RBAC) to confirm the user has admin privileges: https://github.com/kukuu/notifications/blob/main/RBAC.MD .
 
 
 iii. API Key Generation: Generate a secure API key (e.g., using random_bytes for strong encryption).
