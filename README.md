@@ -31,7 +31,7 @@ Logs every action performed by a user for audit purposes.
 
    a. Dashboard (dashboard.php): https://github.com/kukuu/notifications/blob/main/dashboard.md
    
-6. Sending Notifications (send_notification.php)
+6. Sending Notifications (send_notification.php): Both text messages and video URLs can be sent through the system.
 
    a. Notification Form:
 
