@@ -81,6 +81,10 @@ d. Save the key in the database linked to the tenant ID.
 
 a. Upon successful generation, the key should be displayed or sent via email.
 
+
+https://github.com/kukuu/notifications/blob/main/registration-and-apiKeyGeneration.md 
+
+
 ## Conclusion:
 
 This implementation provides a basic structure for a notification system where users and administrators from different tenants can log in, send notifications (text messages and videos), and view their own logs. Each tenant has its own API key, and access control is based on user roles (admin and user). You can extend this by integrating with SMS APIs or video delivery platforms if required.
