@@ -1,4 +1,4 @@
-# Notifications
+# Rich Interactive Notifications
 
 Rich Interactive Customer Engagement for Gamification and Ecommerce.
 
