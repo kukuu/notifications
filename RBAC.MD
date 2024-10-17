@@ -15,7 +15,7 @@ v. User-Roles Table: Maps users to their respective roles.
 
 
 ## Step-by-step Implementation:
-1. Database Schema
+1. Database Schema: 
 Create tables for Users, Roles, Permissions, and the many-to-many relationships between them (User-Roles and Role-Permissions).
 
 ``` 
@@ -55,5 +55,27 @@ CREATE TABLE role_permissions (
     FOREIGN KEY (role_id) REFERENCES roles(id) ON DELETE CASCADE,
     FOREIGN KEY (permission_id) REFERENCES permissions(id) ON DELETE CASCADE
 );
+
+```
+
+2. Data Example: Inserting data into the roles, permissions, and role_permissions tables.
+
+```
+-- Insert Roles
+INSERT INTO roles (role_name) VALUES ('Admin'), ('Editor'), ('Viewer');
+
+-- Insert Permissions
+INSERT INTO permissions (permission_name) VALUES ('Create'), ('Edit'), ('Delete'), ('View');
+
+-- Assign Permissions to Roles
+INSERT INTO role_permissions (role_id, permission_id) VALUES
+(1, 1), -- Admin can Create
+(1, 2), -- Admin can Edit
+(1, 3), -- Admin can Delete
+(1, 4), -- Admin can View
+(2, 2), -- Editor can Edit
+(2, 4), -- Editor can View
+(3, 4); -- Viewer can only View
+
 
 ```
