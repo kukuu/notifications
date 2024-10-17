@@ -35,7 +35,7 @@ Logs every action performed by a user for audit purposes.
 
    a. Notification Form: https://github.com/kukuu/notifications/blob/main/notification-form.md
 
-   b. Notification Logic (send_notification.php):
+   b. Notification Logic (send_notification.php): https://github.com/kukuu/notifications/blob/main/notification-logic.md
    
 8. Viewing Logs (view_logs.php)
 9. Registeration and API Key Generation
