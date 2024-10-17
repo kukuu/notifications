@@ -33,7 +33,7 @@ Logs every action performed by a user for audit purposes.
    
 6. Sending Notifications (send_notification.php): Both text messages and video URLs can be sent through the system.
 
-   a. Notification Form:
+   a. Notification Form: https://github.com/kukuu/notifications/blob/main/notification-form.md
 
    b. Notification Logic (send_notification.php):
    
