@@ -22,7 +22,8 @@ if(isset($_POST['submit'])){
 
 ```
 
-Key Points:
+## Key Points:
+
 i. Email Verification: Ensure the email exists and corresponds to an admin.
 
 ii. Admin Role Confirmation: Use role-based access control (RBAC) to confirm the user has admin privileges.
