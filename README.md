@@ -16,14 +16,10 @@ To implement a simple notification system that allows text messages and videos t
 User: Can log in, send notifications, and view their own activity logs.
 
 
-4. Notification System:
-
-A simple mechanism to send text messages and videos via a web-based platform.
+4. Notification System: A simple mechanism to send text messages and videos via a web-based platform.
 Logs every action performed by a user for audit purposes.
 
-5. API Authentication:
-
-Authentication through Tenant ID and API Key to ensure secure access for each client.
+5. API Authentication: Authentication through Tenant ID and API Key to ensure secure access for each client.
 
 ## Implementation steps: 
 
