@@ -1,6 +1,6 @@
 # Notifications
 
-This is a PHP implementation of a rich interactive customer engagement Cloud based  SaaS Notification  platform for Ecommerce and Gamification.
+This is a PHP implementation of a rich interactive customer engagement Cloud based  SaaS Notification  platform for Ecommerce and Gamification. 
 
 The application delivers Text and Video from a Cloud based SaaS platform. The system allows text messages and videos to be delivered to Internet connectivity devices and requires a log-in access control for an Administrator and a Tennant. The application is  a multi-tenancy system and requires Tenant ID and API key to access and create a Notification.
 
