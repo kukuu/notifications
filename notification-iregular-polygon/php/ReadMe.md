@@ -120,5 +120,5 @@ foreach ($fans as $fan) {
 Step 6: Optional - Store and Track Subscriptions
 You can enhance this system by adding a database to store fan subscriptions and notification preferences. Each fan could have a unique tenant ID and API key, as well as subscribe to notifications for specific events.
 
-TODO:
+### TODO:
 Extend the application  with a robust notification service, monitoring system, and error handling.
