@@ -13,7 +13,7 @@ It can be extended by integrating third-party services for notifications, such a
 
 ### Steps
 
-Step 1: Define the Polygon Coordinates
+#### Step 1: Define the Polygon Coordinates
 You will first define the irregular polygon as an array of geo-coordinates, which represents the event boundaries (stadium or location).
 
 ```
