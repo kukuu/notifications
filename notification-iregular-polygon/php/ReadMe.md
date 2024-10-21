@@ -28,7 +28,7 @@ $polygon = [
 
 ```
 
-Step 2: Ray-Casting Algorithm in PHP
+#### Step 2: Ray-Casting Algorithm in PHP
 Next, we use the Ray-Casting algorithm to determine if a fan’s location is inside the polygon. This algorithm checks how many times a horizontal ray, starting from the point, crosses the polygon’s edges.
 
 ```
@@ -57,7 +57,7 @@ function isPointInPolygon($point, $polygon) {
 ```
 
 
-Step 3: Send Notification
+#### Step 3: Send Notification
 Once you’ve determined that the fan is within the polygon, you can send a notification. For simplicity, the notification here is represented as an email using the PHP mail() function, but you can use services like Twilio, Firebase Cloud Messaging (FCM), or other notification systems.
 
 ```
@@ -74,7 +74,7 @@ function sendNotification($email, $message) {
 ```
 
 
-Step 4: Putting It All Together
+#### Step 4: Putting It All Together
 Now, combine the logic to check the location of the fan, and if they are within the polygon boundaries, send them a notification.
 
 ```
@@ -95,7 +95,7 @@ if (isPointInPolygon($fanLocation, $polygon)) {
 
 
 
-Step 5: Handle Multiple Fans
+#### Step 5: Handle Multiple Fans
 If you have multiple fans and need to check them all, you can loop through a list of fans with their locations and emails:
 
 
@@ -117,7 +117,7 @@ foreach ($fans as $fan) {
 
 ```
 
-Step 6: Optional - Store and Track Subscriptions
+#### Step 6: Optional - Store and Track Subscriptions
 You can enhance this system by adding a database to store fan subscriptions and notification preferences. Each fan could have a unique tenant ID and API key, as well as subscribe to notifications for specific events.
 
 ### TODO:
